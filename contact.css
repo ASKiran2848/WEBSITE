@@ -1,0 +1,55 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+.navbar {
+  padding: 1rem 0;
+}
+
+.hero-section {
+  background-image: url('C1.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-section h1 {
+  color: darkgreen;
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.services img {
+  border-radius: 8px;
+  max-width: 100%;
+  height: auto;
+}
+
+.about h2,
+.contact h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.contact {
+  background-color: white;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: 1rem 0;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
